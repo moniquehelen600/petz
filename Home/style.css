@@ -32,3 +32,38 @@ nav{
 .cor_da_letra{
     color:#FF6E22 ;
 }
+
+h1{
+    position: absolute;
+    left: -300px;
+    overflow: hidden;
+}  
+
+.primeiro_titulo{
+    display: flex;
+    justify-content: center;
+   
+
+    
+ 
+    
+}
+
+h2{
+    font-family:'Raleway' ;
+    color: #33303E;
+    font-size: 27px;
+    line-height: 27px;
+}
+
+p{
+    font-family:'Raleway' ;
+    color: #4E4B59;
+    font-size: 16px;
+
+}
+
+.imagem{
+    display: flex;
+    width: 592px;
+}
