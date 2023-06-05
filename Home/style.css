@@ -1,14 +1,14 @@
-
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-header{
+header {
     height: 88px;
 }
-.contener{
+
+.contener {
     width: 1292px;
     display: flex;
     justify-content: space-between;
@@ -17,53 +17,75 @@ header{
     margin: 0 auto;
 }
 
-nav>a{
+nav>a {
     font-family: 'Raleway';
     color: #33303E;
     font-size: 18px;
     text-decoration: none;
 }
-nav{
+
+nav {
     width: 150px;
     display: flex;
     justify-content: space-between;
 }
 
-.cor_da_letra{
-    color:#FF6E22 ;
+.cor_da_letra {
+    color: #FF6E22;
 }
 
-h1{
+.section_1 {
+    width: 100%;
+}
+
+.posicionamento_section_1 {
+    display: flex;
+}
+
+h1 {
     position: absolute;
     left: -300px;
     overflow: hidden;
-}  
-
-.primeiro_titulo{
-    display: flex;
-    justify-content: center;
-   
-
-    
- 
-    
 }
 
-h2{
-    font-family:'Raleway' ;
+
+
+h2 {
+    font-family: 'Raleway';
     color: #33303E;
-    font-size: 27px;
-    line-height: 27px;
+    font-weight: 700;
+    font-size: 46px;
+
 }
 
-p{
-    font-family:'Raleway' ;
+.texto_1 p {
+    font-family: 'Raleway';
     color: #4E4B59;
     font-size: 16px;
+    display: flex;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 33px;
+}
+
+
+
+.posicionamento_section_1 {
+    display: flex;
+    align-items: center;
+
+
 
 }
 
-.imagem{
-    display: flex;
-    width: 592px;
+section>div>img {
+    width: 450px;
+    height: 350px;
+
+}
+
+.button_section_1 a {
+    width: 244px;
+    height: 62px;
+    background-color: #FF9922;
 }
